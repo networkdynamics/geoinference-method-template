@@ -1,0 +1,7 @@
+#!/bin/sh
+
+export THISDIR=$(dirname $0)
+export PYTHONPATH=$THISDIR/..:$PYTHONPATH
+
+python2.7 -m geolocate.app $@
+

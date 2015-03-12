@@ -1,0 +1,4 @@
+#!/bin/sh
+
+python2.7 -m geolocate.app $@
+

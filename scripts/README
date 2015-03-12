@@ -1,0 +1,5 @@
+To configure your environment to run the geoinference tool without installing everything into site-packages, run
+
+	source setup
+
+From inside this directory.  Thereafter, you will be able to run the geoinf.local script (it will be added to your PATH).

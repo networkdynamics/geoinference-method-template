@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ABSPATH=$( pwd -P )
+
+echo "Updating PATH"
+export PATH=$ABSPATH:$PATH
+
+echo "Updated PATH = $PATH"
