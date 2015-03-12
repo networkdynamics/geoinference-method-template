@@ -51,11 +51,7 @@ Jakarta is a baseline method that geolocates everyone in Jakarta, Indonesia (the
 
         def infer_posts_by_user(self, posts):
 
-            # Fill the array with Jakarta's location
-            locations = []
-            for i in range(0, len(posts)):
-                locations.append(JAKARTA_LAT_LON)
-            return locations
+            # this method in the base class GIModel (found in geolocate.py) will automatically fill the user array with 		JAKARTA_LAT_LON
 
 
     class Jakartr(GIMethod):
